@@ -14,6 +14,14 @@ const menuItems = [
     href: '#',
   },
   {
+    name: 'Services',
+    href: '#',
+  },
+  {
+    name: 'Portfolio',
+    href: '#',
+  },
+  {
     name: 'Contact',
     href: '#',
   },
@@ -27,13 +35,12 @@ export function Header() {
   }
 
   return (
-    <div className="relative w-full bg-white">
+    <div className="relative w-full text-white py-3">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span>
-            <img src={Logo} alt="" srcset="" className='w-10'/>
+            <h3 className='font-bold text-2xl font-mono'>Ajinath Tangade</h3>
           </span>
-          <span className="font-bold"></span>
         </div>
         <div className="hidden lg:block">
           <ul className="inline-flex space-x-8">
@@ -41,7 +48,7 @@ export function Header() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="font-bold text-white-800 px-4 hover:text-white-900"
                 >
                   {item.name}
                 </a>
@@ -52,9 +59,9 @@ export function Header() {
         <div className="hidden lg:block">
           <button
             type="button"
-            className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+            className="rounded-md bg-zinc-50 px-3 py-2 font-bold text-white-800 text-black shadow-sm hover:bg-black/80 hover:text-white border-white"
           >
-            Button text
+            Hire me
           </button>
         </div>
         <div className="lg:hidden">
@@ -110,9 +117,9 @@ export function Header() {
                 </div>
                 <button
                   type="button"
-                  className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  className="mt-4 w-full rounded-md px-3 py-2 font-bold text-white-800 shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
-                  Button text
+                  Hire me
                 </button>
               </div>
             </div>
