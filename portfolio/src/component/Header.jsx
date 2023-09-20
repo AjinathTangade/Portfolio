@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Menu, X } from 'lucide-react'
-import Logo from '../assets/A.png';
+import Logo from '../assets/lette-a.png';
 
 const menuItems = [
   {
@@ -39,7 +39,8 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span>
-            <h3 className='font-bold text-2xl font-mono'>Ajinath Tangade</h3>
+            <img src={Logo} alt="" srcset=""  className='w-10'/>
+            {/* <h3 className='font-bold text-2xl font-mono'>Ajinath Tangade</h3> */}
           </span>
         </div>
         <div className="hidden lg:block">
