@@ -31,6 +31,8 @@ function AboutUs() {
     <li>TypeScript</li>
     <li>Eleventy</li>
     <li>WordPress</li>
+    <li>WordPress</li>
+
     </div>
     
   </ul>
