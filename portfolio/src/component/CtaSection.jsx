@@ -3,15 +3,14 @@ import React from 'react'
 export function CtaSection() {
     return (
         <section>
-
-            <div className="lg:flex mx-auto max-w-7xl h-[600px] flex items-center justify-between py-5 sm:px-6 sm:block ">
+            <div className="px-5 h-[500px] lg:flex mx-auto max-w-7xl lg:h-[700px] flex items-center justify-between py-5 sm:px-6 sm:block ">
                 <div className="w-full lg:w-4/6">
                     <div className="my-10 lg:my-0">
                         <p className='text-emerald-300 text-lg font-semibold pb-4'>Hi, my name is</p>
-                        <h2 className="lg:text-6xl font-bold leading-8 text-indigo-100	sm:text-4xl">
+                        <h2 className="text-3xl lg:text-6xl font-bold leading-8 text-indigo-100 sm:text-4xl">
                             Hello, I’m <span className='text-emerald-300 font-semibold'>Ajinath Tangade, </span> <br /> Front-end Developer <br /> and Web Developer.
                         </h2>
-                        <p className="mt-4 max-w-xl text-base leading-relaxed text-indigo-50 font-semibold">
+                        <p className="font-medium mt-4 max-w-xl text-base leading-relaxed text-indigo-100 lg:font-semibold">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nesciunt eos facilis
                             debitis voluptas iure consectetur odit fugit voluptate recusandae?
                         </p>
@@ -31,7 +30,7 @@ export function CtaSection() {
                         </form>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/3"></div>
+                <div className="hidden w-full lg:w-1/3"></div>
             </div>
         </section>
     )

@@ -1,5 +1,6 @@
 
 import './App.css'
+import AboutUs from './component/AboutUs';
 import { CtaSection } from './component/CtaSection';
 import { Header } from './component/Header';
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
      <Header />
      <CtaSection />
+     <AboutUs/>
     </>
   )
 }
