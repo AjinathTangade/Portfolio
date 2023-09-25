@@ -1,7 +1,26 @@
 import React from 'react';
 
 import Pro from "../assets/pro.jpg";
-
+const menuItems = [
+  {
+    text: 'JavaScript (ES6+)',
+  },
+  {
+    text: 'React',
+  },
+  {
+    text: 'Node.js',
+  },
+  {
+    text: 'TypeScript',
+  },
+  {
+    text: 'Eleventy',
+  },
+  {
+    text: 'WordPress',
+  },
+]
 function AboutUs() {
   return (
     <>
@@ -22,28 +41,20 @@ function AboutUs() {
               Here are a few technologies I’ve been working with recently:
             </p>
             <div className=''>
-              <ul className='flex font-medium mt-4 max-w-xl text-sm	leading-relaxed text-indigo-100'>
-                <div>
-
-                  <li className=" text-indigo-100 before:content-['▹'] before:text-emerald-300 block text-sm font-medium pr-8">JavaScript (ES6+)</li>
-                  <li className=" text-indigo-100 before:content-['▹'] before:text-emerald-300 block text-sm font-medium">React</li>
-                  <li className=" text-indigo-100 before:content-['▹'] before:text-emerald-300 block text-sm font-medium">Node.js</li>
-                </div>
-                <div>
-                  <li className=" text-indigo-100 before:content-['▹'] before:text-emerald-300 block text-sm font-medium">TypeScript</li>
-                  <li className=" text-indigo-100 before:content-['▹'] before:text-emerald-300 block text-sm font-medium">Eleventy</li>
-                  <li className=" text-indigo-100 before:content-['▹'] before:text-emerald-300 block text-sm font-medium">WordPress</li>
-                </div>
-
+              <ul className='flex flex-wrap font-medium mt-4 w-4/5 text-sm	leading-relaxed text-indigo-100'>
+                {menuItems.map((item) => (
+                  <li key={item.text} className="text-indigo-100 before:content-['▹'] before:text-emerald-300 block text-sm font-medium w-2/5 py-1">
+                    {item.text}
+                  </li>
+                ))}
               </ul>
             </div>
-
           </div>
           <div className="w-full lg:w-2/5 flex justify-start align-top mt-5">
-            <div className="relative before:block before:absolute before:inset-5 before:-rotate-5 before:border-8 before:z-0 before:border-emerald-300" >
-              <img src={Pro} alt="profile" className="w-4/5"/>
+            <div className="z-10 relative  before:absolute before:inset-5 before:h-[390px] before:w-[310px] before:rounded-md before:-rotate-5 before:border-2 before:z-[-1] before:border-emerald-300
+            before:transform before:translate-x-1 before:hover:translate-x-0 before:duration-500 before:ease-in-out after:absolute after:-inset-0.5 after:-rotate-5 after:bg-teal-500 after:rounded-lg after:top-[3px] after:opacity-50 after:h-[91%] after:w-[81%] after:hover:hidden">
+              <img src={Pro} alt="profile" className="w-4/5 z-10 rounded-md transform translate-y-1 hover:translate-y-0 duration-500 ease-in-out" />
             </div>
-            
           </div>
         </div>
       </div>
@@ -52,4 +63,4 @@ function AboutUs() {
 }
 
 
-export default AboutUs
+export default AboutUs;
