@@ -24,9 +24,9 @@ const menuItems = [
 function AboutUs() {
   return (
     <>
-      <div className="mx-auto max-w-5xl h-[700px] py-5 sm:px-6 sm:block ">
-        <h4 className='lg:text-3xl font-bold leading-8 text-indigo-100'> <span className='text-emerald-300 text-2xl font-semibold pb-4 pr-3'>01.</span>About Me</h4>
-        <div className=' flex justify-between'>
+      <div className="px-5 sm:min-h-fit sm:px-6 sm:block mb-24 lg:mb-0 lg:mx-auto lg:max-w-5xl lg:h-[650px] ;g:min-h-fit">
+        <h4 className='text-2xl before:w-[220px] before:absolute before:border before:border-slate-100 before:top-4 before:right-0 lg:text-3xl lg:w-2/3 font-bold leading-8 text-indigo-100 relative lg:before:absolute lg:before:w-[420px] lg:before:rounded-md lg:before:border lg:before:border-slate-100 lg:before:right-0 lg:before:top-4'> <span className='text-emerald-300 text-2xl font-semibold pb-4 pr-3 md:text-2xl'>01.</span>About Me</h4>
+        <div className='flex flex-col md:flex md:justify-between md:flex-row lg:flex lg:justify-between lg:flex-row'>
           <div className="w-full lg:w-3/5 pr-8">
             <p className="font-medium mt-4 max-w-xl text-base leading-relaxed text-indigo-100 lg:font-semibold">
               Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
@@ -51,8 +51,8 @@ function AboutUs() {
             </div>
           </div>
           <div className="w-full lg:w-2/5 flex justify-start align-top mt-5">
-            <div className="z-10 relative  before:absolute before:inset-5 before:h-[390px] before:w-[310px] before:rounded-md before:-rotate-5 before:border-2 before:z-[-1] before:border-emerald-300
-            before:transform before:translate-x-1 before:hover:translate-x-0 before:duration-500 before:ease-in-out after:absolute after:-inset-0.5 after:-rotate-5 after:bg-teal-500 after:rounded-lg after:top-[3px] after:opacity-50 after:h-[91%] after:w-[81%] after:hover:hidden">
+            <div className="z-10 relative before:absolute before:inset-5 before:h-[390px] before:w-[310px] before:rounded-md before:-rotate-5 before:border-2 before:z-[-1] before:border-emerald-300
+            before:transform before:translate-x-1 before:hover:translate-x-0 before:duration-500 before:ease-in-out after:h-[100%] after:absolute after:-inset-0.5 after:-rotate-5 after:bg-teal-500 after:rounded-lg after:top-[3px] after:opacity-50 sm:after:h-[100%] md:after:h-[56%] lg:after:h-[91%] after:w-[81%] after:hover:hidden">
               <img src={Pro} alt="profile" className="w-4/5 z-10 rounded-md transform translate-y-1 hover:translate-y-0 duration-500 ease-in-out" />
             </div>
           </div>

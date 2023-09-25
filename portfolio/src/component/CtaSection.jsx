@@ -3,7 +3,7 @@ import React from 'react';
 export function CtaSection() {
     return (
         <section>
-            <div className="px-5 h-[500px] lg:flex mx-auto max-w-7xl lg:h-[700px] flex items-center justify-between py-5 sm:px-6 sm:block ">
+            <div className="px-5 h-[500px] lg:flex mx-auto max-w-7xl lg:h-[850px] flex items-center justify-between py-5 sm:px-6 sm:block ">
                 <div className="w-full lg:w-4/6">
                     <div className="my-10 lg:my-0">
                         <p className='text-emerald-300 text-lg font-semibold pb-4'>Hi, my name is</p>
