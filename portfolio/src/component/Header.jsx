@@ -3,6 +3,10 @@
 import React from 'react'
 import { Menu, X } from 'lucide-react'
 import Logo from '../assets/lette-a.png';
+import Githubb from '../assets/github.svg';
+import Ista from '../assets/instagram.svg';
+import Link from '../assets/linkedin.svg';
+import Twitter from '../assets/twitter.svg';
 
 const menuItems = [
   {
@@ -25,6 +29,31 @@ const menuItems = [
     name: 'Contact',
     href: '#',
   },
+]
+
+const imgBottom = [
+  {
+    id: 1,
+    src: '/src/assets/github.svg',
+    href: '#',
+  },
+  {
+    id: 2,
+    src: '/src/assets/instagram.svg',
+    href: '#',
+  },
+  {
+    id: 3,
+    src: '/src/assets/linkedin.svg',
+    href: '#',
+  },
+  {
+    id: 4,
+    src: '/src/assets/twitter.svg',
+    href: '#',
+  },
+
+
 ]
 
 export function Header() {
@@ -116,6 +145,25 @@ export function Header() {
           </div>
         )}
       </div>
+
+      <div className="flex flex-col items-center space-y-6 px-24 pb-60 fixed bottom-0  before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0">
+        {imgBottom.map((itemm) => (
+          <a
+            key={itemm.id}
+            href={itemm.href}
+          >
+            <img
+              className="h-5 w-5 object-cover text-[#8892b0]"
+              src={itemm.src}
+              alt="User avatar"
+            />
+          </a>
+        ))}
+      </div>
+      <div className="flex flex-col items-center space-y-6 relative ">
+      <p className='rotate-45 px-24 pb-60 fixed right-0 bottom-0 before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0 before:rotate-0'>test</p>
+      </div>
+
     </div>
   )
 }
