@@ -25,7 +25,7 @@ function AboutUs() {
   return (
     <>
       <div className="px-5 sm:min-h-fit sm:px-6 sm:block mb-24 lg:mb-0 lg:mx-auto lg:max-w-5xl lg:h-[650px] ;g:min-h-fit">
-        <h4 className='text-2xl before:w-[220px] before:absolute before:border before:border-slate-100 before:top-4 before:right-0 lg:text-3xl lg:w-2/3 font-bold leading-8 text-indigo-100 relative lg:before:absolute lg:before:w-[420px] lg:before:rounded-md lg:before:border lg:before:border-slate-100 lg:before:right-0 lg:before:top-4'> <span className='text-emerald-300 text-2xl font-semibold pb-4 pr-3 md:text-2xl'>01.</span>About Me</h4>
+        <h4 className='text-2xl before:w-[220px] before:absolute before:border before:border-[#233554] before:top-4 before:right-0 lg:text-3xl lg:w-2/3 font-bold leading-8 text-indigo-100 relative lg:before:absolute lg:before:w-[420px] lg:before:rounded-md lg:before:border lg:before:border-[#233554] lg:before:right-0 lg:before:top-4'> <span className='text-emerald-300 text-2xl font-semibold pb-4 pr-3 md:text-2xl'>01.</span>About Me</h4>
         <div className='flex flex-col md:flex md:justify-between md:flex-row lg:flex lg:justify-between lg:flex-row'>
           <div className="w-full lg:w-3/5 pr-8">
             <p className="font-medium mt-4 max-w-xl text-base leading-relaxed text-indigo-100 lg:font-semibold">
