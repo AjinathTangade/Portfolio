@@ -146,7 +146,7 @@ export function Header() {
         )}
       </div>
 
-      <div className="flex flex-col items-center space-y-6 px-24 pb-60 fixed bottom-0  before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0">
+      <div className="flex flex-col items-center space-y-6 bg-transparent px-24 pb-60 fixed bottom-0  before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0">
         {imgBottom.map((itemm) => (
           <a
             key={itemm.id}
@@ -160,8 +160,9 @@ export function Header() {
           </a>
         ))}
       </div>
-      <div className="flex flex-col items-center space-y-6 relative ">
-      <p className='rotate-45 px-24 pb-60 fixed right-0 bottom-0 before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0 before:rotate-0'>test</p>
+      <div className="flex flex-col items-center space-y-6 fixed right-0 bottom-0">
+        <p className='rotate-90'>test</p>
+      <p className=' px-24 pb-60 before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0 before:rotate-0'></p>
       </div>
 
     </div>

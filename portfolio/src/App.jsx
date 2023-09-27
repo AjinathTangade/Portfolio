@@ -3,6 +3,7 @@ import './App.css'
 import AboutUs from './component/AboutUs';
 import { CtaSection } from './component/CtaSection';
 import { Header } from './component/Header';
+import Project from './component/Project';
 import WorkExp from './component/WorkExp';
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <CtaSection />
      <AboutUs />
      <WorkExp />
+     <Project />
     </>
   )
 }
