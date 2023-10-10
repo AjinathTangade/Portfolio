@@ -1,8 +1,11 @@
 import React from 'react';
+import { MotionAnimate } from 'react-motion-animate'
+
 
 export function CtaSection() {
     return (
         <section>
+         <MotionAnimate animation='fadeInUp'>
             <div className="px-5 h-[500px] lg:flex mx-auto max-w-7xl lg:h-[850px] flex items-center justify-between py-5 sm:px-6 sm:block ">
                 <div className="w-full lg:w-4/6">
                     <div className="my-10 lg:my-0">
@@ -32,6 +35,7 @@ export function CtaSection() {
                 </div>
                 <div className="hidden w-full lg:w-1/3"></div>
             </div>
+            </MotionAnimate>
         </section>
     )
 }

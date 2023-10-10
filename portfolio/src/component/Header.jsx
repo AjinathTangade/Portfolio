@@ -73,14 +73,14 @@ export function Header() {
           </span>
         </div>
         <div className="hidden lg:block">
-          <ul className="inline-flex space-x-8">
+          <ul className="inline-flex space-x-8 relative">
             {menuItems.map((item) => (
-              <li key={item.name}>
+              <li key={item.name} className="m-0">
                 <a
                   href={item.href}
-                  className="font-bold text-white-800 px-4 hover:text-white-900 hover:text-emerald-300"
+                  className="font-bold text-white-800 px-4 hover:text-white-900 hover:text-emerald-300 relative hover:after:content-[''] hover:after:absolute hover:after:border-emerald-300 hover:after:mt-3 hover:after:bottom-0 hover:after:left-0 hover:after:border hover:after:w-12"
                 >
-                  {item.name}
+                  <span className=" ">{item.name}</span>
                 </a>
               </li>
             ))}
@@ -146,23 +146,23 @@ export function Header() {
         )}
       </div>
 
-      <div className="flex flex-col items-center space-y-6 bg-transparent px-24 pb-60 fixed bottom-0  before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0">
+      <div className="hidden md:hidden lg:flex flex-col items-center space-y-6 bg-transparent px-20 pb-60 fixed bottom-0 before:bg-transparent before:w-[2px] before:h-[180px] before:absolute before:border before:border-[#233554] before:bottom-0">
         {imgBottom.map((itemm) => (
           <a
             key={itemm.id}
             href={itemm.href}
           >
             <img
-              className="h-5 w-5 object-cover text-[#8892b0]"
+              className="h-5 w-5 object-cover text-[#8892b0] bg-transparent"
               src={itemm.src}
               alt="User avatar"
             />
           </a>
         ))}
       </div>
-      <div className="flex flex-col items-center space-y-6 fixed right-0 bottom-0">
-        <p className='rotate-90'>test</p>
-      <p className=' px-24 pb-60 before:w-[2px] before:h-[220px] before:absolute before:border before:border-[#233554] before:bottom-0 before:rotate-0'></p>
+      <div className="hidden lg:flex flex-col items-center space-y-[105px] fixed right-0 bottom-0 bg-transparent">
+        <p className='rotate-90 bg-transparent'>ajinathtangade12@gmail.com</p>
+      <p className='px-20 pb-48 bg-transparent before:w-[2px] before:h-[180px] before:absolute before:bg-transparent before:border before:border-[#233554] before:bottom-0 before:rotate-0'></p>
       </div>
 
     </div>

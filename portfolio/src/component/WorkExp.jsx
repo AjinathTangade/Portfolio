@@ -2,6 +2,7 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 
+
 function WorkExp() {
     return (
         <>
@@ -24,7 +25,7 @@ function WorkExp() {
                                 <h2 className='text-white'>Any content 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, quae magnam. Distinctio unde, voluptatum maxime cumque voluptatem iste optio sunt. </h2>
                                 <h2 className='text-white'>Any content 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, quae magnam. Distinctio unde, voluptatum maxime cumque voluptatem iste optio sunt. </h2>
                                 <h2 className='text-white'>Any content 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, quae magnam. Distinctio unde, voluptatum maxime cumque voluptatem iste optio sunt. </h2>
-                                <h2 className='text-white'>Any content 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, quae magnam. Distinctio unde, voluptatum maxime cumque voluptatem iste optio sunt. </h2>
+                                <h2 className='text-white'>Any content 1 teakeir  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, quae magnam. Distinctio unde, voluptatum maxime cumque voluptatem iste optio sunt. </h2>
                             </TabPanel>
                             <TabPanel>
                                 <h2 className='text-white'>Any content 8</h2>

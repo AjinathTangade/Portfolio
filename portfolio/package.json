@@ -10,9 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@skits/react-cursor": "^1.0.1",
     "lucide-react": "^0.279.0",
     "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.7",
+    "react-animated-cursor": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-motion-animate": "^1.0.6",
+    "react-scroll-fade-animation": "^0.5.4",
     "react-tabs": "^6.0.2"
   },
   "devDependencies": {
